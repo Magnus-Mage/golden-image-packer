@@ -1,0 +1,23 @@
+# Packer
+.packer/
+*.log
+packer.log
+
+# Build artifacts
+builds/logs 
+manifest.json
+
+# Sensitive files
+**/secrets.*
+**/*.pem
+**/*.key
+
+# OS
+.DS_STORE
+Thumbs.db
+
+# Temporary Files
+*.tmp
+*.temp
+
+
